@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(228, 231, 209);
+    
+    
+}
+
+
+
+#Manual{
+  display:block;
+  text-decoration:none;
+  padding:5px;
+  color:rgb(29, 40, 82);
+
+  
+  /*background-color:rgb(199, 202, 214) ;*/
+  font-size: 70px;
+  cursor:pointer;
+  text-align: center;
+  
+  transition:.5s ease;
+}
+#Manual :hover{
+    background-color:rgb(148, 210, 238);
+    color: rgb(87, 168, 134);
+
+    
+}/*
+  li a {
+    display:block;
+    text-decoration:none;
+    padding:15px;
+    background:rgba($gray-light,.25);
+    
+    font-size:20px;
+    float:left;
+    width:50%;
+    text-align:center;
+    cursor:pointer;
+
+    &:hover {
+      background:$main-dark;
+      color:$white;
+    }
+  
+*/
+#Manual a{
+  position: relative;
+    color:rgb(148, 210, 238);
+    font-family: 'Kumbh Sans', sans-serif;
+  text-decoration: none;
+  background-size: contain;
+
+  
+ 
+}
+#Manual{
+    text-align: center;
+}
+
+iframe{
+  height: 500px;
+  position: relative;
+  align-content: center;
+  
+}
+#EnviarIframe  {
+  margin: 0 auto; 
+  width:250px;
+  height: 250px;
+  
+}
+
+#ManualIframe{
+  margin: 0 auto ;
+  padding: 50px 50px 50px 50px; 
+  width:250px;
+  color:rgb(62, 0, 161);
+  font-family: 'Kumbh Sans', sans-serif;
+  text-decoration: none;
+  font-size:15px ;
+  background-color: rgb(200, 216, 218);
+}
+#ManualIframe input{
+  margin: 10px 0px 10px 0px ;
+  background-color: rgba(137, 43, 226, 0.295);
+}
+#ManualIframe div{
+  background-color: rgb(200, 216, 218);
+}
+#ManualIframe label{
+  background-color: rgb(200, 216, 218);
+}
+#ManualIframe h3{
+
+  background-color: rgb(200, 216, 218);
+}
+#ManualIframe button{
+  background-color: rgb(182, 216, 216);
+}
